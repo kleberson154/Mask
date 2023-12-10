@@ -1,3 +1,4 @@
+//javascript
 // Funcao para mascara de CPF
 function maskCPF(valor) {
   return valor.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, '$1.$2.$3-$4')
@@ -24,7 +25,7 @@ const formattedCNPJ = maskCNPJ('12345678900123')
 const formattedCEP = maskCEP('12345678')
 const formattedPhone = maskPhone('12345678901')
 
-console.log(formattedCPF) //Saida: 123.456.789-09
-console.log(formattedCNPJ) //Saida: 12.345.678/9001-23
-console.log(formattedCEP) //Saida: 12345-678
-console.log(formattedPhone) //Saida: (12) 34567-8901
+console.log(formattedCPF)
+console.log(formattedCNPJ)
+console.log(formattedCEP)
+console.log(formattedPhone)
